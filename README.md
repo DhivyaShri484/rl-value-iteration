@@ -67,10 +67,10 @@ REF NO : 212221230009
 ```python
 
 import gym
-desc = ['SFGF','FHFF','FFHF','FFFF']
+desc = ['SGFF','FHFF','FFHF','FFFF']
 env = gym.make('FrozenLake-v1',desc=desc)
 init_state = env.reset()
-goal_state = 2
+goal_state = 1
 P = env.env.P
 
 def value_iteration(P, gamma=1.0, theta=1e-10):
@@ -102,9 +102,9 @@ def value_iteration(P, gamma=1.0, theta=1e-10):
 
 ## OUTPUT:
 
-![image](https://github.com/Mahalakshmibalireddy21003680/rl-value-iteration/assets/93427286/ebc89960-9fe9-4caa-8817-35f93ec6f7de)
+![image](https://github.com/DhivyaShri484/rl-value-iteration/assets/94505585/cc899ae9-cd0e-4988-9bab-9073eec3f416)
 
-![image](https://github.com/Mahalakshmibalireddy21003680/rl-value-iteration/assets/93427286/c152a9c0-b3ad-4499-ae03-72caba52b6c0)
+![image](https://github.com/DhivyaShri484/rl-value-iteration/assets/94505585/6097f168-89c6-41e1-8b9c-80a346e3fad2)
 
 
 
